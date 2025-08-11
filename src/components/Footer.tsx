@@ -1,4 +1,4 @@
-import { Github, Twitter, Linkedin, Heart } from "lucide-react";
+import { Github, Instagram, Linkedin, Heart } from "lucide-react";
 
 export const Footer = () => {
   return (
@@ -15,7 +15,7 @@ export const Footer = () => {
           {/* Social links */}
           <div className="flex items-center gap-4">
             <a
-              href="https://github.com/creator"
+              href="https://github.com/Hardik-369"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
@@ -25,17 +25,17 @@ export const Footer = () => {
             </a>
             
             <a
-              href="https://twitter.com/creator"
+              href="https://www.instagram.com/__shadow__4444/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
             >
-              <Twitter className="w-5 h-5" />
-              <span className="text-sm">Twitter</span>
+              <Instagram className="w-5 h-5" />
+              <span className="text-sm">Instagram</span>
             </a>
             
             <a
-              href="https://linkedin.com/in/creator"
+              href="https://www.linkedin.com/in/hardikkawale/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
