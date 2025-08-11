@@ -1,5 +1,4 @@
 import { Shield } from "lucide-react";
-import logo from "@/assets/logo.png";
 
 export const Header = () => {
   return (
@@ -7,8 +6,10 @@ export const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img src={logo} alt="Photo Metadata Cleaner" className="w-8 h-8" />
-            <h1 className="text-xl font-bold">Photo Metadata Cleaner</h1>
+            <div className="p-2 bg-gradient-yellow rounded-lg">
+              <Shield className="w-6 h-6 text-primary" />
+            </div>
+            <h1 className="text-xl font-bold">PhotoGuard</h1>
           </div>
           
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
