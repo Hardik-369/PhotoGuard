@@ -61,7 +61,28 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Photo Metadata Cleaner custom colors
+				yellow: {
+					DEFAULT: 'hsl(var(--yellow-primary))',
+					light: 'hsl(var(--yellow-light))',
+					dark: 'hsl(var(--yellow-dark))'
+				},
+				gray: {
+					light: 'hsl(var(--gray-light))',
+					medium: 'hsl(var(--gray-medium))',
+					dark: 'hsl(var(--gray-dark))'
 				}
+			},
+			backgroundImage: {
+				'gradient-yellow': 'var(--gradient-yellow)',
+				'gradient-subtle': 'var(--gradient-subtle)'
+			},
+			boxShadow: {
+				'subtle': 'var(--shadow-subtle)',
+				'medium': 'var(--shadow-medium)',
+				'large': 'var(--shadow-large)',
+				'yellow': 'var(--shadow-yellow)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
